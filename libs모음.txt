@@ -1,0 +1,33 @@
+1. dateformat : https://www.npmjs.com/package/dateformat
+2. react-native-rest-client : https://www.npmjs.com/package/react-native-rest-client
+3. react-native-popup-dialog : https://www.npmjs.com/package/react-native-popup-dialog
+4. react-native-datepicker: https://www.npmjs.com/package/react-native-datepicker
+5. react-native-calendars: https://github.com/wix/react-native-calendars
+6. react-native-gridview: https://www.npmjs.com/package/react-native-gridview
+7. react-native-device-info: https://github.com/rebeccahughes/react-native-device-info
+8. react-native-swipe-list-view: https://github.com/jemise111/react-native-swipe-list-view
+9. react-native-password-strength-checker: https://github.com/ttdung11t2/react-native-password-strength-checker
+10. react-native-router-flux: https://github.com/aksonov/react-native-router-flux
+
+
+code-push : 
+    1. android(Mdoumi-Android) :
+        1.1. production : KOo4rZVSreirbQVeOwhU4zBYLTed7c46f80d-1102-408b-b2bb-ff449c545c5d
+        1.2. Staging : vlsI-KIORvZagyblFIjuhtPTcXaS7c46f80d-1102-408b-b2bb-ff449c545c5d
+
+    2. ios(Mdoumi-Ios) :
+        2.1. production : 9ZP7VOzFtjKeadBxBTKEsF7jpDm07c46f80d-1102-408b-b2bb-ff449c545c5d
+        2.2. Staging : qCCVli4xgBrp6RNsmcar5Jj7R4RC7c46f80d-1102-408b-b2bb-ff449c545c5d
+
+Release
+¸í·É¾î
+react-native bundle --entry-file index.ios.js --platform ios --dev false --bundle-output ios/main.jsbundle --assets-dest ios
+
+https://facebook.github.io/react-native/docs/signed-apk-android.html
+
+adb reverse tcp:8081 tcp:8081
+
+code-push release-react <appName> <platform>
+
+code-push release-react MyApp-iOS ios
+code-push release-react MyApp-Android android
