@@ -7,12 +7,15 @@ start
 홈브루(Homebrew)사용 -> 홈브루 설치
 
 brew install node
+
 brew install watchman
+
 brew install flow
 
 문제 발생시
 
 brew update
+
 brew upgrade
 
 리액트 네이티브 설치
@@ -20,6 +23,7 @@ brew upgrade
 npm install -g react-native-cli
 
 ios -> xcode설치
+
 android -> 안드로이드스튜디오 설치
 
 리액트 네이티브 시작
